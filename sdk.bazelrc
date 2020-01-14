@@ -7,7 +7,7 @@ build --cxxopt=-DEMSCRIPTEN_PROTOBUF_LITE=1
 build --cxxopt=-fdata-sections
 build --cxxopt=-ffunction-sections
 
-build --linkopt=-Wl,--gc-sections
+build --linkopt=-Wl
 
 # https://github.com/bazelbuild/bazel/issues/9451
 # ideally we want this, but it doesn't work...
