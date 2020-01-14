@@ -1,8 +1,8 @@
-workspace(name = "istio_stats_filter")
+workspace(name = "mx_filter")
 
 local_repository(
     name="istio_wasm_sdk", 
-    path="/home/bianpengyuan_google_com/workspace/istio-wasm-sdk",
+    path="/usr/local/google/home/bianpengyuan/go/src/istio.io/istio-wasm-sdk",
 )
 
 load("@istio_wasm_sdk//bazel:sdk_dependencies.bzl", "sdk_dependencies")
