@@ -12,7 +12,6 @@ cc_binary(
         "-UHAVE_PTHREAD",
     ],
     deps = [
-        "@envoy_wasm_api//:proxy_wasm_intrinsics",
         "@istio_wasm_sdk//:context",
         "@com_google_absl//absl/strings",
     ],
